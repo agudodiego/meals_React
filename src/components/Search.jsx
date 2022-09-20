@@ -29,7 +29,7 @@ const Search = () => {
     return (
         <header className="search-container">
             <form onSubmit={handleSubmit}>
-                {/* <button type="button" onClick={()=>setSearchTerm(' ')} className="btn"><RiHome2Fill/></button> */}
+                <button type="button" onClick={()=>setSearchTerm(' ')} className="btn"><RiHome2Fill size={20}/></button>
                 <input type="text" placeholder="type favorite meal" value={text} onChange={handleChange} className="form-input" />
                 <button type="submit" className="btn">Search</button>
                 <button type="button" onClick={handleRandomMeals} className="btn btn-hipster">Surprise me!</button>

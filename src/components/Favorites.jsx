@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../context";
+import { RiDeleteBin2Fill } from "react-icons/ri";
 
 const Favorites = () => {
 
@@ -12,12 +13,12 @@ const Favorites = () => {
         <div className="favorites-container">
           {
             favorites.map((item) => {
-              console.log(favorites)
+              //console.log(favorites)
               const { idMeal, strMealThumb: image, str, strMeal: title } = item;
 
               return <div key={idMeal} className="favorite-item">
                 <img src={image} alt={title} onClick={ () => selectMeal(idMeal, true)} className="favorites-img img" />
-                <button className="remove-btn" onClick={()=>removeFromFavorites(idMeal)}>remove</button>
+                <button className="remove-btn" onClick={()=>removeFromFavorites(idMeal)}><RiDeleteBin2Fill size={15}/></button>
               </div>
             })
           }

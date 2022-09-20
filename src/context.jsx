@@ -8,7 +8,7 @@ const randomMealsUrl = 'https://themealdb.com/api/json/v1/1/random.php'
 
 const getFavoritesFromLocalStorage = () => {
     let favorites = localStorage.getItem('favorites')
-    console.log(favorites)
+    //console.log(favorites)
     if (favorites){
         favorites = JSON.parse(localStorage.getItem('favorites'))
     }else{
