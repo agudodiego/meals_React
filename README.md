@@ -1,4 +1,6 @@
 # MEALS APP
+👉 [MealsApp](blank:#https://agudodiego.github.io/meals_React/)
+
 **Meals** es una SPA sencilla para hacer *consultas a una API* de recetas de variadas comidas 🍲.
 Con Meals podemos mostrar en pantalla muuuchos platos😋 de todo el mundo o buscar nuestro plato favorito para luego acceder a un modal con su receta. También podemos agregarlas a un apartado de favoritos que permanecera disponible a través del *LocalStorage*.
 La aplicacion la realicé siguiendo un tutorial de **FreeCodeCamp** para aprender las bases de React.
